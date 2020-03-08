@@ -1,3 +1,4 @@
-$(function () {
-    $('.lazy').lazy();
-});
+  $(function() {
+        $('.lazy').Lazy();
+    });
+                
