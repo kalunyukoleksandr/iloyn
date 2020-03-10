@@ -1934,8 +1934,8 @@ h4.widget-title {
     height: 0px !important;
 }
 
-rs-module-wrap,
-rs-module-wrap * {
+.rs-module-wrap,
+.rs-module-wrap * {
     box-sizing: border-box;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -2750,7 +2750,7 @@ body div.logostudio-blog-excerpt {
     }
 }
 
-@media screen and (min-width: 783px) and (max-width:) {
+@media screen and (min-width: 783px) {
     .admin-bar .ubermenu.ubermenu-sticky {
         margin-top: 78px;
     }
