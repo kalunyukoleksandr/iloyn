@@ -1,4 +1,4 @@
 $(function ($) {
-    $(".lazy").Lazy();
-
+    $("img.lazy").Lazy();
+    $("source.lazy").Lazy();
 });
