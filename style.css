@@ -875,7 +875,7 @@ section {
 .ubermenu-main div,
 .ubermenu-main input,
 .ubermenu-main p {
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400
 }
 
@@ -999,7 +999,7 @@ html {
 .fusion-footer-widget-area .widget-title,
 .fusion-footer-widget-area h3,
 .fusion-privacy-bar-full .column-title {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     font-weight: 300;
     line-height: 1.5;
@@ -1047,7 +1047,7 @@ html {
 .ticket-selector-submit-btn[type=submit],
 .wpcf7-form input[type=submit],
 body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 0;
     font-style: normal
@@ -1433,7 +1433,7 @@ select {
 .fusion-title h1,
 .fusion-widget-area h1,
 .post-content h1 {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: 0;
@@ -1464,7 +1464,7 @@ select {
 .main-flex .slide-content h2,
 .post-content h2,
 .title h2 {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0;
@@ -1516,7 +1516,7 @@ h2.entry-title {
 .project-content .project-info h4,
 .share-box h4,
 table th {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     line-height: 1.5;
     letter-spacing: 0;
@@ -1665,7 +1665,7 @@ input.button-default {
 .wpcf7-form input[type=submit],
 .wpcf7-submit,
 input.button-default {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     letter-spacing: 0
 }
@@ -7540,4 +7540,10 @@ body h2.logostudio-blog-title {
     max-width: 100%;
     margin-top: -11%;
     margin-bottom: -13%
+}
+
+@media only screen and (max-width:2429px) {
+    .movie {
+        margin-bottom: -12%
+    }
 }
