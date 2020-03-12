@@ -7541,9 +7541,3 @@ body h2.logostudio-blog-title {
     margin-top: -11%;
     margin-bottom: -13%
 }
-
-@media only screen and (max-width:2429px) {
-    .movie {
-        margin-bottom: -12%
-    }
-}
