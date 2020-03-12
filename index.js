@@ -1,3 +1,3 @@
 $(function ($) {
-    $("picture.lazy").Lazy();
+    $("img.lazy").Lazy();
 });
