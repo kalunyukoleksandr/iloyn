@@ -6912,11 +6912,7 @@ body h2.logostudio-blog-title {
         max-height: none
     }
 
-    .ubermenu-responsive-default.ubermenu-responsive.ubermenu-responsive-collapse {
-        max-height: 0;
-        overflow: hidden !important;
-        visibility: hidden
-    }
+
 
     .ubermenu-responsive-default.ubermenu-responsive.ubermenu-in-transition,
     .ubermenu-responsive-default.ubermenu-responsive.ubermenu-in-transition .ubermenu-nav {
