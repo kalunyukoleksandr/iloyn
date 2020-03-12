@@ -190,13 +190,18 @@
                                             <div class="fusion-text">
                                                 <div
                                                     style="display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -moz-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -moz-box-align: center; -ms-flex-align: center; align-items: center;">
-                                                    <div style="padding-right: 30px;"><img
-                                                            class="size-full wp-image-44 shape lazy"
-                                                            style="min-width: 160px;" src="" alt="logo icon - Home"
-                                                            width="202" height="244"
-                                                            srcset="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_200/https://www.ilyon.net/wp-content/uploads/2018/03/logo_icon-200x242.png 200w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_202/https://www.ilyon.net/wp-content/uploads/2018/03/logo_icon.png 202w"
-                                                            sizes="(max-width: 202px) 100vw, 202px" title="Home"
-                                                            data-src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_202/https://www.ilyon.net/wp-content/uploads/2018/03/logo_icon.png">
+                                                    <div style="padding-right: 30px;">
+                                                        <picture>
+                                                            <source data-srcset="./img/logo_icon.webp" type="image/webp"
+                                                                class="size-full wp-image-44 shape lazy"
+                                                                alt="logo icon - Home">
+                                                            <source data-srcset="./img/logo_icon.png" type="image/png"
+                                                                class="size-full wp-image-44 shape lazy"
+                                                                alt="logo icon - Home">
+                                                            <img data-src="./img/logo_icon.png" alt="logo icon - Home"
+                                                                class="size-full wp-image-44 shape lazy" title="Home"
+                                                                style="min-width: 160px;" width="202" height="244">
+                                                        </picture>
                                                     </div>
                                                     <div>
                                                         <h1
@@ -350,10 +355,15 @@
                                                         href="https://www.ilyon.net/our-gaming-world/cookie-crush/"
                                                         target="_self">
                                                         <picture>
-                                                            <source srcset="./img/Cookie-Rush.webp" type="image/webp">
-                                                            <img src="https://wp.ilyon.net/wp-content/uploads/Cookie-Rush-394X397.png"
-                                                                width="" height="" alt="Cookie Rush 394X397 - Home"
-                                                                class="img-responsive" title="Home">
+                                                            <source data-srcset="./img/Cookie-Rush.webp"
+                                                                type="image/webp" class="img-responsive lazy"
+                                                                alt="Cookie Rush 394X397 - Home">
+                                                            <source data-srcset="./img/Cookie-Rush-394X397.png"
+                                                                type="image/png" class="img-responsive lazy"
+                                                                alt="Cookie Rush 394X397 - Home">
+                                                            <img data-src="./img/Cookie-Rush-394X397.png"
+                                                                alt="Cookie Rush 394X397 - Home"
+                                                                class="img-responsive lazy" title="Home">
                                                         </picture>
                                                     </a>
                                                 </span>
@@ -435,14 +445,24 @@
                                                     <tbody>
                                                         <tr>
                                                             <td style="width: 33.3333%;"><a
-                                                                    href="/our-gaming-world/bubble-shooter/"><img
-                                                                        class="aligncenter size-thumbnail wp-image-415 lazy"
-                                                                        src="" alt="bubble shooter HOME 150x150 - Home"
-                                                                        width="150" height="150"
-                                                                        srcset="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_66/https://www.ilyon.net/wp-content/uploads/2018/06/bubble_shooter_HOME-66x66.png 66w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_150/https://www.ilyon.net/wp-content/uploads/2018/06/bubble_shooter_HOME-150x150.png 150w"
-                                                                        sizes="(max-width: 150px) 100vw, 150px"
-                                                                        title="Home"
-                                                                        data-src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_150/https://www.ilyon.net/wp-content/uploads/2018/06/bubble_shooter_HOME-150x150.png"></a>
+                                                                    href="/our-gaming-world/bubble-shooter/">
+                                                                    <picture>
+                                                                        <source
+                                                                            data-srcset="./img/bubble_shooter_HOME-150x150.webp"
+                                                                            type="image/webp"
+                                                                            class="aligncenter size-thumbnail wp-image-415 lazy"
+                                                                            alt="bubble shooter HOME 150x150 - Home">
+                                                                        <source
+                                                                            data-srcset="./img/bubble_shooter_HOME-150x150.png"
+                                                                            type="image/png"
+                                                                            class="aligncenter size-thumbnail wp-image-415 lazy"
+                                                                            alt="bubble shooter HOME 150x150 - Home">
+                                                                        <img class="aligncenter size-thumbnail wp-image-415 lazy"
+                                                                            data-src="./img/bubble_shooter_HOME-150x150.png"
+                                                                            alt="bubble shooter HOME 150x150 - Home"
+                                                                            title="Home">
+                                                                    </picture>
+                                                                </a>
                                                             </td>
                                                             <td style="width: 33.3333%;"><a
                                                                     href="/our-gaming-world/cookie-rush/">
@@ -558,14 +578,17 @@
                                                 <li>
                                                     <div class="logostudio-blog-image">
                                                         <picture>
-                                                            <source srcset="./img/blog-about-Game-Design.webp"
-                                                                type="image/webp">
-                                                            <img width="466" height="246"
-                                                                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1150/https://www.ilyon.net/wp-content/uploads/2018/10/blog-about-Game-Design.jpg"
-                                                                class="attachment-544x246 size-544x246 wp-post-image"
+                                                            <source data-srcset="./img/blog-about-Game-Design.webp"
+                                                                type="image/webp"
+                                                                class="attachment-544x246 size-544x246 wp-post-image lazy"
+                                                                alt="blog about Game Design - Feeling Stuck? 3 Tips for Moving Past Hard to Beat Bubble Shooter Game Levels">
+                                                            <source data-srcset="./img/blog-about-Game-Design.jpg"
+                                                                type="image/jpg"
+                                                                class="attachment-544x246 size-544x246 wp-post-image lazy"
+                                                                alt="bubble shooter HOME - Home">
+                                                            <img data-src="./img/blog-about-Game-Design.jpg"
+                                                                class="attachment-544x246 size-544x246 wp-post-image lazy"
                                                                 alt="blog about Game Design - Feeling Stuck? 3 Tips for Moving Past Hard to Beat Bubble Shooter Game Levels"
-                                                                srcset="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_200/https://www.ilyon.net/wp-content/uploads/2018/10/blog-about-Game-Design-200x106.jpg 200w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_300/https://www.ilyon.net/wp-content/uploads/2018/10/blog-about-Game-Design-300x158.jpg 300w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_400/https://www.ilyon.net/wp-content/uploads/2018/10/blog-about-Game-Design-400x211.jpg 400w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_600/https://www.ilyon.net/wp-content/uploads/2018/10/blog-about-Game-Design-600x317.jpg 600w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_768/https://www.ilyon.net/wp-content/uploads/2018/10/blog-about-Game-Design-768x405.jpg 768w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_800/https://www.ilyon.net/wp-content/uploads/2018/10/blog-about-Game-Design-800x422.jpg 800w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1024/https://www.ilyon.net/wp-content/uploads/2018/10/blog-about-Game-Design-1024x540.jpg 1024w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_1150/https://www.ilyon.net/wp-content/uploads/2018/10/blog-about-Game-Design.jpg 1150w"
-                                                                sizes="(max-width: 466px) 100vw, 466px"
                                                                 title="Feeling Stuck? 3 Tips for Moving Past Hard to Beat Bubble Shooter Game Levels">
                                                         </picture>
                                                         <a
@@ -600,14 +623,17 @@
                                                 <li>
                                                     <div class="logostudio-blog-image">
                                                         <picture>
-                                                            <source srcset="img/BUBBLE_SHOOTER_PR800-400.webp"
-                                                                type="image/webp">
-                                                            <img width="492" height="246"
-                                                                src="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_800/https://www.ilyon.net/wp-content/uploads/BUBBLE_SHOOTER_PR800-400.jpg"
-                                                                class="attachment-544x246 size-544x246 wp-post-image"
+                                                            <source data-srcset="./img/BUBBLE_SHOOTER_PR800-400.webp"
+                                                                type="image/webp"
+                                                                class="attachment-544x246 size-544x246 wp-post-image lazy"
+                                                                alt="BUBBLE SHOOTER PR800 400 - Why Bubble Shooter is the Best Puzzle Game for PC">
+                                                            <source data-srcset="./img/BUBBLE_SHOOTER_PR800-400.jpg"
+                                                                type="image/jpg"
+                                                                class="attachment-544x246 size-544x246 wp-post-image lazy"
+                                                                alt="BUBBLE SHOOTER PR800 400 - Why Bubble Shooter is the Best Puzzle Game for PC">
+                                                            <img data-src="./img/BUBBLE_SHOOTER_PR800-400.jpg"
+                                                                class="attachment-544x246 size-544x246 wp-post-image lazy"
                                                                 alt="BUBBLE SHOOTER PR800 400 - Why Bubble Shooter is the Best Puzzle Game for PC"
-                                                                srcset="https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_200/https://www.ilyon.net/wp-content/uploads/BUBBLE_SHOOTER_PR800-400-200x100.jpg 200w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_300/https://www.ilyon.net/wp-content/uploads/BUBBLE_SHOOTER_PR800-400-300x150.jpg 300w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_400/https://www.ilyon.net/wp-content/uploads/BUBBLE_SHOOTER_PR800-400-400x200.jpg 400w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_600/https://www.ilyon.net/wp-content/uploads/BUBBLE_SHOOTER_PR800-400-600x300.jpg 600w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_768/https://www.ilyon.net/wp-content/uploads/BUBBLE_SHOOTER_PR800-400-768x384.jpg 768w, https://cdn.shortpixel.ai/client/q_glossy,ret_img,w_800/https://www.ilyon.net/wp-content/uploads/BUBBLE_SHOOTER_PR800-400.jpg 800w"
-                                                                sizes="(max-width: 492px) 100vw, 492px"
                                                                 title="Why Bubble Shooter is the Best Puzzle Game for PC">
                                                         </picture>
                                                         <a
